@@ -4,7 +4,7 @@ FactoryGirl.define do
     name
     market "MyString"
     numerator 1
-    type "Type"
+    type "Company"
     event { FactoryGirl.create :event }
   end
 end
